@@ -1,0 +1,20 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --cyan-dark: hsl(179, 100%, 13%);
+
+  --trans-white: hsla(0, 0%, 100%, 0.75);
+  --gray-light: hsl(0, 0%, 95%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+
+}
