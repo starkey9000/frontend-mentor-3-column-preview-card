@@ -1,7 +1,3 @@
-/*font-family: 'Big Shoulders Display', cursive; */
-/*font-family: 'Lexend Deca', sans-serif; */
-
-
 main {
   padding: 1rem;
   display: flex;
@@ -61,9 +57,8 @@ main {
   margin: 2rem 0rem 0rem 0rem;
   padding: 1rem 2rem;
   font-family: 'Lexend Deca', sans-serif;
+  border: 2px solid var(--trans-white);
 }
-
-
 
 @media screen and (min-width: 1440px) {
   .page-wrapper {
@@ -97,5 +92,23 @@ main {
 
   .btn-learn-more {
     margin: 6rem 0rem 0rem 0rem;
+    cursor: pointer;
+  }
+
+  .btn-learn-more:hover {
+    border: 2px solid var(--trans-white);
+    color: var(--trans-white);
+  }
+
+  .btn-1:hover {
+    background-color: var(--orange);
+  }
+
+  .btn-2:hover {
+    background-color: var(--cyan);
+  }
+
+  .btn-3:hover {
+    background-color: var(--cyan-dark);
   }
 }
